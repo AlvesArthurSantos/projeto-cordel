@@ -46,6 +46,7 @@ header a {
     color: #fff;
     font-weight: 600;
 }
+
 header a:hover {
     text-decoration: underline;
 }
@@ -59,7 +60,6 @@ section {
 
 .texto {
     display: inline-block;
-
     padding-top: 10vh;
     padding-left: 30px;
 
