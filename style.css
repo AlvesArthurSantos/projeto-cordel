@@ -59,7 +59,7 @@ section div > p {
 }
 
 .texto {
-    display: block;
+    display: inline-block;
     max-width: 300px;
     min-height: 400px;
 
@@ -67,49 +67,52 @@ section div > p {
     padding-left: 3em;
 
     font-family: var(--font3);
-    font-size: 1.5em;
-
+    font-size: 3.5vw;;
+    line-height: 2em;
 }
 
 div#fundo1 {
     background-color: black;
     background-image: url('img/background001.jpg');
-    max-width: 1200px;
+    width: 1200px;
+    max-width: 96vh;
     height: 800px;
     position: relative;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: right center;
     z-index: 100;
     margin: 0px;
 }
 
 .imagem div {
+    display: inline-block;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.09);
+    background-color: rgba(0, 0, 0, 0.514);
     color: #fff;
     z-index: 101;
 
-    max-width: 300px;
+    width: 300px;
     min-height: 400px;
     padding-top: 3em;
     padding-left: 3em;
     margin-top: 15rem;
     
     font-family: var(--font3);
-    font-size: 1.5em;
+    font-size: 3.5vw;;
+    line-height: 2em;
 
 }
 
 div#fundo2 {
     background-color: black;
     background-image: url('img/background002.jpg');
-    max-width: 1200px;
+    max-width: 96vh;
     height: 800px;
     position: relative;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: right center;
     z-index: 100;
     margin: 0px;
 }
