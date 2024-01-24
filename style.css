@@ -26,12 +26,12 @@ header {
     color: #fff;
     font-family: var(--font2);
     text-align: center;
-    padding: 70px;
 }
 
 header h1 {
     font-size: 5vw;;
     line-height: 2em;
+    padding-top: 50px;
     font-weight: bold;
     font-variant: small-caps;
     
@@ -39,6 +39,7 @@ header h1 {
 
 header p {
     font-family: var(--font1);
+    padding-bottom: 50px;
 }
 
 header a {
@@ -50,21 +51,25 @@ header a:hover {
 }
 
 section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
 }
 
 .texto {
     display: inline-block;
 
-    padding-top: 3rem;
-    padding-left: 3rem;
+    padding-top: 10vh;
+    padding-left: 30px;
 
     font-family: var(--font3);
     font-size: 3.5vw;;
-    line-height: 2em;
+ 
+}
+
+.texto > p {
+    padding-top: 40px;
 }
 
 section#joa {
@@ -100,7 +105,7 @@ section#carta {
     left: 50%;
     top: 50%;
 
-    transform: translate(-90%, -50%);
+    transform: translate(-95%, -50%);
     padding-left: 3rem;
     padding-right: 3rem;
     
@@ -113,7 +118,7 @@ footer {
     background-color: #000;
     color: #fff;
     text-align: center;
-    height: 2em;
+    padding: 10px;
 }
 
 footer p {
